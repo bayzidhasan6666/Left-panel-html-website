@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Left Panel HTML Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .content {
+            display: none;
+        }
+
+        .content:target {
+            display: block;
+        }
+
+        #left-panel {
+            background: #ffbcc1;
+        }
+    </style>
+</head>
+
+<body class="flex min-h-screen p-5">
+    <div id="left-panel" class="text-black rounded-r-2xl">
+        <ul class="p-4 font-semibold py-10 w-52 ">
+            <li><a href="#home-content" class="block py-2 hover:bg-white p-5 transition-all">Home</a></li>
+            <li><a href="#contact-content" class="block py-2 hover:bg-white p-5 transition-all">Contact</a></li>
+            <li><a href="#information-content" class="block py-2 hover:bg-white p-5 transition-all">About</a></li>
+            <li><a href="#guide-content" class="block py-2 hover:bg-white p-5 transition-all">Guide</a></li>
+        </ul>
+    </div>
+    <div id="right-panel" class="flex-grow p-8">
+        <div id="home-content" class="content">
+
+            <div class="hero min-h-screen rounded-xl"
+                style="background-image: url('https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2Vic2l0ZSUyMGNvdmVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');background-repeat: no-repeat;  background-size: cover; object-fit: cover;">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-md mx-auto pt-32">
+                        <h1 class="mb-5 text-5xl font-bold">Welcome To Job Freak</h1>
+                        <p class="mb-5">Our aim is to empower the youth of our country and make them self-dependent by
+                            providing them with jobs/internships and
+                            all kinds of opportunities from various sectors.</p>
+                        <button
+                        id="left-panel"
+                            class="px-3 py-2 rounded-lg font-semibold shadow-xl hover:shadow-2xl transition-all ">Get
+                            Started</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="contact-content" class="content ">
+            <h2 class="text-2xl  font-bold mb-4 text-gray-900">Contact Information</h2>
+            <p class="text-gray-800">Thank you for your interest in Job Freak! We are here to assist you with any
+                inquiries or
+                support you may need. Please find our contact details below:</p>
+
+            <div class="mt-8">
+                <h3 class="text-xl font-bold mb-2 text-gray-900">General Inquiries</h3>
+                <p class="text-gray-800">For general questions or information about Job Freak, please reach out to us:
+                </p>
+                <ul class="list-disc list-inside">
+                    <li class="text-gray-800">Email: info@jobfreak.com</li>
+                    <li class="text-gray-800">Phone: +1 123-456-7890</li>
+                </ul>
+            </div>
+
+            <div class="mt-8">
+                <h3 class="text-xl font-bold mb-2 text-gray-900">Support</h3>
+                <p class="text-gray-800">If you require assistance or encounter any issues, our support team is ready to
+                    help:
+                </p>
+                <ul class="list-disc list-inside">
+                    <li class="text-gray-800">Email: support@jobfreak.com</li>
+                    <li class="text-gray-800">Phone: +1 987-654-3210</li>
+                </ul>
+            </div>
+
+            <div class="mt-8">
+                <h3 class="text-xl font-bold mb-2 text-gray-900">Business Inquiries</h3>
+                <p class="text-gray-800">For business partnerships or collaboration opportunities, please contact our
+                    business
+                    development team:</p>
+                <ul class="list-disc list-inside">
+                    <li class="text-gray-800">Email: business@jobfreak.com</li>
+                    <li class="text-gray-800">Phone: +1 555-123-4567</li>
+                </ul>
+            </div>
+
+            <div class="mt-8">
+                <h3 class="text-xl font-bold mb-2 text-gray-900">Address</h3>
+                <p class="text-gray-800">You can also visit us at our office:</p>
+                <p class="text-gray-800">123 Job Freak Street</p>
+                <p class="text-gray-800">City, Country</p>
+            </div>
+        </div>
+
+
+        <div id="information-content" class="content">
+            <div class="bg-white ">
+                <h2 class="text-3xl font-bold mb-6 text-gray-900">About Job Freak</h2>
+                <p class="text-gray-800">At Job Freak, we post daily updates on internships and job postings! Our aim is
+                    to
+                    empower the youth of our country and make them self-dependent by providing them with jobs,
+                    internships, and
+                    all kinds of opportunities from various sectors.</p>
+                <div class="mt-8">
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Who can apply to Job Freak</h3>
+                    <ul class="list-disc list-inside">
+                        <li class="text-gray-800">Only those candidates can apply who:</li>
+                        <li class="text-gray-800">1. are available for the work-from-home job/internship</li>
+                        <li class="text-gray-800">2. can start the work-from-home job/internship between 13th Jun'23 and
+                            18th
+                            Jul'23</li>
+                        <li class="text-gray-800">3. are available for a duration of 2 months</li>
+                        <li class="text-gray-800">4. have relevant skills and interests</li>
+                        <li class="text-gray-800">* Women wanting to start/restart their career can also apply.</li>
+                    </ul>
+                </div>
+                <div class="mt-8">
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Why choose Job Freak</h3>
+                    <ul class="list-disc list-inside">
+                        <li class="text-gray-800">Get access to a wide range of job opportunities from various sectors
+                        </li>
+                        <li class="text-gray-800">Stay updated with daily internship and job postings</li>
+                        <li class="text-gray-800">Join a community of motivated individuals striving for career success
+                        </li>
+                        <li class="text-gray-800">Find internships and jobs that match your skills and interests</li>
+                    </ul>
+                </div>
+                <div class="mt-8">
+                    <h3 class="text-2xl font-bold mb-4 text-gray-900">Contact Us</h3>
+                    <p class="text-gray-800">For any inquiries or support, feel free to reach out to us:</p>
+                    <p class="text-gray-800">Email: info@jobfreak.com</p>
+                    <p class="text-gray-800">Phone: +1 123-456-7890</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="guide-content" class="content bg-white">
+            <h2 class="text-2xl font-bold mb-4 text-gray-900">Some Guide For Everyone</h2>
+            <p class="text-gray-800">Welcome to the Job Freak Guide! We have put together a comprehensive guide to help
+                you
+                navigate and make the most out of our platform. Read on to learn more:</p>
+
+            <div class="mt-8">
+                <h3 class="text-xl font-bold mb-2 text-gray-900">1. Getting Started</h3>
+                <p class="text-gray-800">To begin your journey with Job Freak, follow these steps:</p>
+                <ul class="list-disc list-inside">
+                    <li class="text-gray-800">Create an account on our website.</li>
+                    <li class="text-gray-800">Complete your profile with accurate and up-to-date information.</li>
+                    <li class="text-gray-800">Browse through the available job postings and internships.</li>
+                    <li class="text-gray-800">Apply to the positions that match your skills and interests.</li>
+                </ul>
+            </div>
+
+            <div class="mt-8">
+                <h3 class="text-xl font-bold mb-2 text-gray-900">2. Job Search Tips</h3>
+                <p class="text-gray-800">Here are some tips to enhance your job search experience:</p>
+                <ul class="list-disc list-inside">
+                    <li class="text-gray-800">Use relevant keywords when searching for jobs or internships.</li>
+                    <li class="text-gray-800">Filter results based on location, industry, or duration to find the best
+                        matches.
+                    </li>
+                    <li class="text-gray-800">Read job descriptions thoroughly and tailor your application accordingly.
+                    </li>
+                    <li class="text-gray-800">Regularly check for updates and new postings on the platform.</li>
+                </ul>
+            </div>
+
+            <div class="mt-8">
+                <h3 class="text-xl font-bold mb-2 text-gray-900">3. Networking and Professional Development</h3>
+                <p class="text-gray-800">Building connections and honing your skills can greatly benefit your career
+                    growth.
+                    Consider the following:</p>
+                <ul class="list-disc list-inside">
+                    <li class="text-gray-800">Attend networking events and connect with professionals in your industry.
+                    </li>
+                    <li class="text-gray-800">Engage in online communities and forums related to your field.</li>
+                    <li class="text-gray-800">Participate in webinars, workshops, or training programs to enhance your
+                        skills.
+                    </li>
+                    <li class="text-gray-800">Seek mentorship opportunities to gain valuable guidance and advice.</li>
+                </ul>
+            </div>
+
+            <div class="mt-8">
+                <h3 class="text-xl font-bold mb-2 text-gray-900">4. Job Application Tips</h3>
+                <p class="text-gray-800">To increase your chances of success, keep these tips in mind while applying for
+                    jobs:
+                </p>
+                <ul class="list-disc list-inside">
+                    <li class="text-gray-800">Customize your resume and cover letter for each application.</li>
+                    <li class="text-gray-800">Highlight your relevant skills, experiences, and achievements.</li>
+                    <li class="text-gray-800">Double-check your application for any errors or typos.</li>
+                    <li class="text-gray-800">Follow up with employers after submitting your application.</li>
+                </ul>
+            </div>
+
+            <div class="mt-8">
+                <h3 class="text-xl font-bold mb-2 text-gray-900">5. Stay Motivated</h3>
+                <p class="text-gray-800">Job searching can sometimes be challenging, but it's important to stay
+                    motivated.
+                    Remember these tips:</p>
+                <ul class="list-disc list-inside">
+                    <li class="text-gray-800">Stay positive and believe in your abilities.</li>
+                    <li class="text-gray-800">Celebrate small victories and milestones along the way.</li>
+                    <li class="text-gray-800">Seek support from friends, family, or career counselors.</li>
+                    <li class="text-gray-800">Keep learning and improving your skills during the process.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
